@@ -17,42 +17,46 @@ button {
   @include bttn-none-transform;
   background-color: $color-info;
   color: initial;
+  @include bgHover($color-info);
 }
 .bttn-primary {
-  background-color: $color-primary;
   color: #fff;
+  @include bgHover($color-primary);
 }
 
 .bttn-secondary {
-  background-color: $color-secondary;
   color: #fff;
+  @include bgHover($color-secondary);
 }
 
 .bttn-success {
-  background-color: $color-success;
+  @include bgHover($color-success);
 }
 
 .bttn-danger {
-  background-color: $color-danger;
   color: #fff;
+  @include bgHover($color-danger);
 }
 
 .bttn-warning {
   background-color: $color-warning;
+  &:hover {
+    background-color: darken($color-warning, 5%);
+  }
 }
 
 .bttn-info {
-  background-color: $color-info;
+  @include bgHover($color-info);
 }
 
 .bttn-light {
-  background-color: $color-light;
+  @include bgHover($color-light);
 }
 
 .bttn-dark {
-  background-color: $color-dark;
+  @include bgHover($color-dark);
 }
 
 .bttn-link {
-  color: $color-link;
+  @include bgHover($color-link);
 }
