@@ -19,6 +19,7 @@ button {
   color: initial;
   @include bgHover($color-info);
 }
+
 .bttn-primary {
   color: #fff;
   @include bgHover($color-primary);
@@ -58,5 +59,9 @@ button {
 }
 
 .bttn-link {
-  @include bgHover($color-link);
+  color: $color-link;
+  background: transparent;
+  &:hover {
+    background: transparent;
+  }
 }
