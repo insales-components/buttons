@@ -1,0 +1,58 @@
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="file"],
+button {
+  @include bttn-none-transform;
+  color: $color-text-primary;
+  border: 2px solid transparent;
+  cursor: pointer;
+  &:focus {
+    outline-color: lighten($color-link-primary, 50%);
+  }
+}
+
+.bttn {
+  @include bttn;
+  @include bttn-none-transform;
+  background-color: $color-info;
+  color: initial;
+}
+.bttn-primary {
+  background-color: $color-primary;
+  color: #fff;
+}
+
+.bttn-secondary {
+  background-color: $color-secondary;
+  color: #fff;
+}
+
+.bttn-success {
+  background-color: $color-success;
+}
+
+.bttn-danger {
+  background-color: $color-danger;
+  color: #fff;
+}
+
+.bttn-warning {
+  background-color: $color-warning;
+}
+
+.bttn-info {
+  background-color: $color-info;
+}
+
+.bttn-light {
+  background-color: $color-light;
+}
+
+.bttn-dark {
+  background-color: $color-dark;
+}
+
+.bttn-link {
+  color: $color-link;
+}

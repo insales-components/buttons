@@ -1,0 +1,13 @@
+{
+  "name": "ui-buttons",
+  "version": "1.0.0",
+  "description": "Стиль кнопок",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/ui-buttons",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {}
+}
