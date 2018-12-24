@@ -3,7 +3,7 @@
 [type="reset"],
 [type="file"],
 button {
-  @include bttn-none-transform;
+  @include btn-none-transform;
   color: $color-text-primary;
   border: 2px solid transparent;
   cursor: pointer;
@@ -12,53 +12,53 @@ button {
   }
 }
 
-.bttn {
-  @include bttn;
-  @include bttn-none-transform;
+.btn {
+  @include btn;
+  @include btn-none-transform;
   background-color: $color-info;
   color: initial;
   @include bgHover($color-info);
 }
 
-.bttn-primary {
+.btn-primary {
   color: #fff;
   @include bgHover($color-primary);
 }
 
-.bttn-secondary {
+.btn-secondary {
   color: #fff;
   @include bgHover($color-secondary);
 }
 
-.bttn-success {
+.btn-success {
   @include bgHover($color-success);
 }
 
-.bttn-danger {
+.btn-danger {
   color: #fff;
   @include bgHover($color-danger);
 }
 
-.bttn-warning {
+.btn-warning {
   background-color: $color-warning;
   &:hover {
     background-color: darken($color-warning, 5%);
   }
 }
 
-.bttn-info {
+.btn-info {
   @include bgHover($color-info);
 }
 
-.bttn-light {
+.btn-light {
   @include bgHover($color-light);
 }
 
-.bttn-dark {
+.btn-dark {
   @include bgHover($color-dark);
 }
 
-.bttn-link {
+.btn-link {
   color: $color-link;
   background: transparent;
   &:hover {
