@@ -21,7 +21,7 @@ $font-family-primary: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxyge
   line-height: calc(#{$font-size-primary} + 1px);
   text-transform: none;
 }
-@mixin bttn {
+@mixin btn {
   font-size: $font-size-primary;
   font-family: $font-family-primary;
   font-weight: 300;
