@@ -11,12 +11,12 @@ $color-link: #00293c !default;
 $font-size-primary: 16px !default;
 $font-family-primary: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue !default;
 
-@mixin bttn-uppercase {
+@mixin btn-uppercase {
   padding: 10px 10px 10px 10px;
   text-transform: uppercase;
   line-height: 1;
 }
-@mixin bttn-none-transform {
+@mixin btn-none-transform {
   padding: 9px 10px 10px 10px;
   line-height: calc(#{$font-size-primary} + 1px);
   text-transform: none;
