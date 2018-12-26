@@ -22,12 +22,12 @@ button {
 
 .btn-primary {
   color: #fff;
-  @include bgHover($color-primary);
+  @include bgHover($color-link-primary);
 }
 
 .btn-secondary {
   color: #fff;
-  @include bgHover($color-secondary);
+  @include bgHover($color-link-secondary);
 }
 
 .btn-success {
