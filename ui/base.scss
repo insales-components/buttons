@@ -22,7 +22,7 @@ button {
 
 .btn-primary {
   color: #fff;
-  @include bgHover($color-link-primary);
+  @include bgHover($color-link-primary, #fff);
 }
 
 .btn-secondary {
