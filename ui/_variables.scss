@@ -28,7 +28,7 @@
     outline: none;
   }
 }
-@mixin bgHover($bg, $color) {
+@mixin bgHover($bg, $color: null) {
   background-color: $bg;
   @if $color {
     color: $color;
