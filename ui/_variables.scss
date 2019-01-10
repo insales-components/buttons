@@ -28,9 +28,15 @@
     outline: none;
   }
 }
-@mixin bgHover($bg) {
+@mixin bgHover($bg, $color) {
   background-color: $bg;
+  @if $color {
+    color: $color;
+  }
   &:hover {
     background-color: darken($bg, 10%);
+    @if $color {
+      color: $color;
+    }
   }
 }
